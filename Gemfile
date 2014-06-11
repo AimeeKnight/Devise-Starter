@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 gem 'devise'
-gem 'blorgh', path: "../blorgh"
+gem 'pg'
+gem 'blogament', path: "../../NSS-Ruby/blogament"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

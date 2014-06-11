@@ -1,16 +1,14 @@
 PATH
-  remote: ../blorgh
+  remote: ../../NSS-Ruby/blogament
   specs:
-    blorgh (0.0.1)
+    blogament (0.0.1)
       bootstrap-sass (~> 3.1.1)
       carrierwave
       jquery-rails
       mini_magick
-      pg
       rails (~> 4.1.1)
       sass-rails (= 4.0.3)
       tinymce-rails
-      tinymce-rails-imageupload (~> 4.0.0.beta)
 
 GEM
   remote: https://rubygems.org/
@@ -133,9 +131,6 @@ GEM
     tilt (1.4.1)
     tinymce-rails (4.0.28.1)
       railties (>= 3.1.1)
-    tinymce-rails-imageupload (4.0.16.beta)
-      railties (>= 3.2, < 5)
-      tinymce-rails (~> 4.0)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
@@ -153,11 +148,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  blorgh!
+  blogament!
   coffee-rails (~> 4.0.0)
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  pg
   rails (= 4.1.1)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

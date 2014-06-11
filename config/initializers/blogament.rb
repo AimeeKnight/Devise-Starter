@@ -1,3 +1,3 @@
 Rails.application.config.before_initialize do
-  Blorgh.author_class = "User"
+  Blogament.author_class = "User"
 end

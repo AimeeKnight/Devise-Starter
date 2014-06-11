@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root to: "blorgh/posts#index"
+  root to: "blogament/posts#index"
   devise_for :users
-  mount Blorgh::Engine, at: "/blog"
+  mount Blogament::Engine, at: "/blog"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
