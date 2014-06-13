@@ -1,5 +1,6 @@
-PATH
-  remote: ../../NSS-Ruby/blogament
+GIT
+  remote: git://github.com/AimeeKnight/Blogament.git
+  revision: 4c3a1da0086c56d2878cbba5b8492f7733a344eb
   specs:
     blogament (0.0.1)
       bootstrap-sass (~> 3.1.1)
