@@ -1,7 +1,6 @@
 # config/initializers/carrierwave.rb
 
-module Blogament
-CarrierWave.configure do |config|
+CarrierWave::Blogament.configure do |config|
   config.fog_credentials = {
     # Configuration for Amazon S3 should be made available through an Environment variable.
     # For local installations, export the env variable through the shell OR
@@ -32,5 +31,4 @@ CarrierWave.configure do |config|
   config.fog_directory    = ENV['amk-nss']
   config.s3_access_policy = :public_read                          # Generate http:// urls. Defaults to :authenticated_read (https://)
   config.fog_host         = "#{ENV['s3.amazonaws.com']}/#{ENV['amk-nss']}"
-end
 end
