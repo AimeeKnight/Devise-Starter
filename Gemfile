@@ -5,7 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.1'
 gem 'devise'
 gem 'pg'
-gem 'blogament', :git => 'git://github.com/AimeeKnight/Blogament.git'
+gem "figaro"
+# gem 'blogament', :git => 'git://github.com/AimeeKnight/Blogament.git'
+gem 'blogament', path: "../../NSS-Ruby/blogament"
 gem 'bootstrap-sass', '~> 3.1.1'
 
 # Use SCSS for stylesheets
