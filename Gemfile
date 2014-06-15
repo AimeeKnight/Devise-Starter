@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 
-gem 'blogament', :git => 'git://github.com/AimeeKnight/Blogament.git'
-#gem 'blogament', path: "../../NSS-Ruby/blogament"
+#gem 'blogament', :git => 'git://github.com/AimeeKnight/Blogament.git'
+gem 'blogament', path: "../../NSS-Ruby/blogament"
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'devise'
 gem 'pg'
