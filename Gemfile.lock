@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/AimeeKnight/Blogament.git
-  revision: 3a7b320c571013a8f3977a21a6b237d05066f14c
+  revision: 623add21f49e751fbf675586cfd7bbec1b443043
   specs:
     blogament (0.0.1)
       bootstrap-sass (~> 3.1.1)
