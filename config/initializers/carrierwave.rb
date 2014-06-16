@@ -1,4 +1,3 @@
-module Blogament
 CarrierWave.configure do |config|
   if Rails.env.test?
     config.storage = :file
@@ -19,4 +18,4 @@ CarrierWave.configure do |config|
     config.fog_directory      = ENV['S3_BUCKET_NAME']          # required
   end
 end
-end
+
