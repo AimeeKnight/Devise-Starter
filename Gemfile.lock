@@ -1,8 +1,9 @@
 GIT
   remote: git://github.com/AimeeKnight/Blogament.git
-  revision: 9301b64ebfd1ecbb1d67a2e232c3ef538a03559e
+  revision: 3a8fae64ee2da9d9c9e1ce8d9cfe79fd6703a6b3
   specs:
     blogament (0.0.1)
+      acts-as-taggable-on
       bootstrap-sass (~> 3.1.1)
       bootswatch-rails
       carrierwave
@@ -42,6 +43,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    acts-as-taggable-on (3.2.6)
+      activerecord (>= 3, < 5)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.7)
     bootstrap-sass (3.1.1.1)
