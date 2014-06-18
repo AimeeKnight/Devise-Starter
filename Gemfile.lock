@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/AimeeKnight/Blogament.git
-  revision: 3a8fae64ee2da9d9c9e1ce8d9cfe79fd6703a6b3
+  revision: aa1427044697f1e25f89e4795e74753ee79a33df
   specs:
     blogament (0.0.1)
       acts-as-taggable-on
