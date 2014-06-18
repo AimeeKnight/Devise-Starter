@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/AimeeKnight/Blogament.git
-  revision: aa1427044697f1e25f89e4795e74753ee79a33df
+  revision: 8227faf9e448d57633a1fc3414761e9b4e280f86
   specs:
     blogament (0.0.1)
       acts-as-taggable-on
@@ -9,6 +9,7 @@ GIT
       carrierwave
       fog
       jquery-rails
+      jquery-ui-rails
       mini_magick
       rails (~> 4.1.1)
       sass-rails (= 4.0.3)
@@ -104,6 +105,8 @@ GEM
     jquery-rails (3.1.0)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
+    jquery-ui-rails (4.2.1)
+      railties (>= 3.2.16)
     json (1.8.1)
     mail (2.5.4)
       mime-types (~> 1.16)
