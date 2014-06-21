@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/AimeeKnight/Blogament.git
-  revision: 45258f10dbe682d44c747a965f14b529dd9f325b
+  revision: e7b87bc104c92c66115f1d43e5b6d27908eee018
   specs:
     blogament (0.0.1)
       acts-as-taggable-on
@@ -181,7 +181,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
-    tinymce-rails (4.0.28.1)
+    tinymce-rails (4.1.0)
       railties (>= 3.1.1)
     treetop (1.4.15)
       polyglot
