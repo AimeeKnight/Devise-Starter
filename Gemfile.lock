@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/AimeeKnight/Blogament.git
-  revision: 23e20900378ca48cf412fcb9b318420525f4328d
+  revision: f723ecfb248409ccef08e2fd39fb59de61330937
   specs:
     blogament (0.0.1)
       acts-as-taggable-on
@@ -13,6 +13,7 @@ GIT
       mini_magick
       rails (~> 4.1.1)
       sass-rails (= 4.0.3)
+      searchkick
       select2-rails
       social-share-button
       tinymce-rails
@@ -73,9 +74,19 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    elasticsearch (0.4.11)
+      elasticsearch-api (= 0.4.11)
+      elasticsearch-transport (= 0.4.11)
+    elasticsearch-api (0.4.11)
+      multi_json
+    elasticsearch-transport (0.4.11)
+      faraday
+      multi_json
     erubis (2.7.0)
     excon (0.37.0)
     execjs (2.2.0)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
@@ -98,6 +109,7 @@ GEM
     fog-json (1.0.0)
       multi_json (~> 1.0)
     formatador (0.2.5)
+    hashie (3.0.0)
     hike (1.2.3)
     i18n (0.6.9)
     ipaddress (0.8.0)
@@ -119,6 +131,7 @@ GEM
     mini_portile (0.6.0)
     minitest (5.3.4)
     multi_json (1.10.1)
+    multipart-post (2.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
@@ -162,6 +175,10 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    searchkick (0.7.8)
+      activemodel
+      elasticsearch (~> 0.4.11)
+      hashie
     select2-rails (3.5.7)
       thor (~> 0.14)
     social-share-button (0.1.6)
