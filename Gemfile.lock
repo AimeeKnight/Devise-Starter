@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/AimeeKnight/Blogament.git
-  revision: f723ecfb248409ccef08e2fd39fb59de61330937
+PATH
+  remote: ../../NSS-Ruby/blogament
   specs:
     blogament (0.0.1)
       acts-as-taggable-on
