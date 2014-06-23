@@ -14,8 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-public/uploads/tmp/*
-public/uploads/blogament/post/image/*
+public/uploads/
 
 # Ignore application configuration
 /config/application.yml
