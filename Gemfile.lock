@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/AimeeKnight/Blogament.git
-  revision: 01a16c5a60e061e8fd283b28c424657374633716
+  revision: dfb3339ab90a693de2f79e50d8da433a00ec8dda
   specs:
     blogament (0.0.1)
       acts-as-taggable-on
@@ -96,7 +96,7 @@ GEM
       fog-json
       ipaddress (~> 0.5)
       nokogiri (~> 1.5, >= 1.5.11)
-    fog-brightbox (0.1.0)
+    fog-brightbox (0.1.1)
       fog-core (~> 1.22)
       fog-json
       inflecto
