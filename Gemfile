@@ -12,6 +12,9 @@ gem 'pg'
 gem "figaro"
 gem 'rails_12factor', group: :production
 
+# rails server that handles multiple connections
+gem 'unicorn'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
